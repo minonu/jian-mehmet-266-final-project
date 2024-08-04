@@ -1,0 +1,32 @@
+# Article Bias Prediction
+
+This repository contains code and data for predicting the political bias of news articles. The project utilizes machine learning techniques to analyze and classify news articles based on their political ideology.
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Dataset](#dataset)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Results](#results)
+- [Citation](#citation)
+- [License](#license)
+
+## Introduction
+
+The goal of this project is to predict the political bias of news articles. The system is trained on a dataset of news articles labeled with their political ideology. The models and methods used in this project can be applied to other text classification tasks as well.
+
+## Dataset
+
+The dataset used for this project is described in the following paper:
+
+**Citation:**
+
+```bibtex
+@inproceedings{baly2020we,
+  author      = {Baly, Ramy and Da San Martino, Giovanni and Glass, James and Nakov, Preslav},
+  title       = {We Can Detect Your Bias: Predicting the Political Ideology of News Articles},
+  booktitle   = {Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
+  series      = {EMNLP~'20},
+  NOmonth     = {November},
+  year        = {2020},
